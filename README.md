@@ -61,7 +61,7 @@ DB_PASSWORD=your_database_password
 
 6. Run migrations
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 7. Install frontend dependencies and build assets
@@ -72,6 +72,15 @@ npm run dev
 
 8. Start the development server
 ```bash
+php artisan serve
+```
+
+9. Acess the url - http://127.0.0.1:8000
+
+10. Login using these credentials -
+
+user - admin@eallisto.com
+password - password
 php artisan serve
 ```
 
