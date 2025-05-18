@@ -78,7 +78,7 @@ php artisan serve
 9. Acess the url - http://127.0.0.1:8000
 
 10. Login using these credentials -
-
+```bash
 user - admin@eallisto.com
 password - password
 php artisan serve
